@@ -1,38 +1,25 @@
 # Docker data
-
 Docker data container.
 
-Dockerhub: [stangenberg/data][dockerhub]
+[![Docker Stars](https://img.shields.io/docker/stars/stangenberg/data.svg)][dockerhub] [![Docker Pulls](https://img.shields.io/docker/pulls/stangenberg/data.svg)][dockerhub] [![Image Size](https://img.shields.io/imagelayers/image-size/stangenberg/data.svg)](https://imagelayers.io/?images=stangenberg/data) [![Image Layers](https://img.shields.io/imagelayers/layers/stangenberg/data.svg)](https://imagelayers.io/?images=stangenberg/data)
 
-## Features ##
+## Features
+An empty docker container to store data.
 
-An empty docker container o store data.
-
-
-## Exposed volumes ##
-
+## Exposed volumes
 None.
 
-
-## Exposed ports ##
-
-- 22 / SSH
-
+## Exposed ports
+None
 
 ## Environment Variables
-
 None.
 
-
-## Usage ##
-
+## Usage
 Use it as data container that is linked to other containers.
 
-
 ## Build
-
 Make is used as build system.
-
 - `make` / starts normal docker build.
 - `make run` / build and run the container. This uses `data` as container name and automatically stops a running container with an equal name beforehand.
 - `make bash` /  build, run the container and start a bash prompt.
@@ -40,10 +27,8 @@ Make is used as build system.
 
 [Docker Build Reference https://docs.docker.com/reference/builder/](https://docs.docker.com/reference/builder/)
 
-
-## License ##
-
+## License
 [Published under the MIT License][LICENSE]
 
-[DOCKERHUB]: https://hub.docker.com/u/stangenberg/data
-[LICENSE]: https://github.com/stangenberg/docker-data/blob/master/LICENSE.md
+[dockerhub]: https://hub.docker.com/u/stangenberg/data
+[license]: https://github.com/stangenberg/docker-data/blob/master/LICENSE.md
