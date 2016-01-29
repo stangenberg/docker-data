@@ -1,7 +1,7 @@
 # Docker data
 Docker data container.
 
-[![Docker Stars](https://img.shields.io/docker/stars/stangenberg/data.svg)][dockerhub] [![Docker Pulls](https://img.shields.io/docker/pulls/stangenberg/data.svg)][dockerhub] [![Image Size](https://img.shields.io/imagelayers/image-size/stangenberg/data.svg)](https://imagelayers.io/?images=stangenberg/data) [![Image Layers](https://img.shields.io/imagelayers/layers/stangenberg/data.svg)](https://imagelayers.io/?images=stangenberg/data)
+[![Docker Stars](https://img.shields.io/docker/stars/stangenberg/data.svg)][dockerhub] [![Docker Pulls](https://img.shields.io/docker/pulls/stangenberg/data.svg)][dockerhub] [![Image Size](https://img.shields.io/imagelayers/image-size/stangenberg/data/latest.svg)](https://imagelayers.io/?images=stangenberg/data:latest) [![Image Layers](https://img.shields.io/imagelayers/layers/stangenberg/data/latest.svg)](https://imagelayers.io/?images=stangenberg/data:latest)
 
 ## Features
 An empty docker container to store data.
